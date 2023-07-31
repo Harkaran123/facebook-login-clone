@@ -14,8 +14,8 @@ body{
 }
 
 .container{
-    width: 30%;
-    height: 55vh;
+    width: 600px;
+    height: 460px;
     padding: 0;
     /* background-color: red; */
     margin: 55px auto;
@@ -68,17 +68,19 @@ body{
 
 .container form #button{
     background-color: #1877F2;
-    padding: 12px 145px;
+    padding: 12px 0px;
     margin-top: 12px;
     text-decoration: none;
     color: #fff;
     font-size: 22px;
     font-weight: 500;
+    width: 92%;
+    text-align: center;
     border-radius: 6px;
 }
 
 .rec-links{
-    margin-top: 20px;
+    margin-top: 30px;
     
 }
 
@@ -110,11 +112,11 @@ body{
 
 }
 
-@media(max-width: 2000px){
+@media(max-width: 700px){
 
     
 .container{
-    width: 100%;
+    width: 350px;
     height: 55vh;
     padding: 0;
 }
@@ -152,11 +154,15 @@ body{
 
 .container form #button{
     background-color: #1877F2;
-    padding: 10px 116px;
+    padding: 12px 0px;
     margin-top: 12px;
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 500;
+    width: 92%;
+    text-align: center;
+    border-radius: 6px;
 }
 
 .rec-links{
