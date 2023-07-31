@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+   background-color: #F0F2F5;
+}
+
+.page-1{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 30%;
+    height: 55vh;
+    padding: 0;
+    /* background-color: red; */
+    margin: 55px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.container h1{
+    font-size: 45px;
+    color: #1877F2;
+
+}
+
+.container form{
+    width: 70%;
+    height: 65%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-top: 20px;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px -15px 24px -20px rgba(0,0,0,0.45),
+15px 0px 24px -20px rgba(0,0,0,0.45),
+0px 15px 24px -20px rgba(0,0,0,0.45),
+-15px 0px 24px -20px rgba(0,0,0,0.45);
+}
+
+.container form h3{
+    font-weight: 300;
+}
+
+.container form input{
+    width: 85%;
+    margin-top: 17px;
+    padding: 16px;
+    border: 0.5px solid #DDDFE2;
+    border-radius: 6px;
+
+}
+
+.container form input::placeholder{
+    font-size: 18px;
+    color: #9094B6;
+}
+
+.container form #button{
+    background-color: #1877F2;
+    padding: 12px 145px;
+    margin-top: 12px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+.rec-links{
+    margin-top: 20px;
+    
+}
+
+.rec-links a{
+    color: #1877F2;
+    text-decoration: none;
+    margin-right: 5px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.footer{
+    background-color: #FFFFFF;
+    width: 100%;
+    position: relative;
+    /* margin-top: 25%; */
+    height: 260px;
+    display: flex;
+}
+
+.footer .texts{
+    position: absolute;
+    /* background-color: red; */
+    height: 40%;
+    margin-top: 140px;
+    margin-left: 20%;
+    line-height: 50px;
+    font-weight: 200;
+
+}
+
+@media(max-width: 600px){
+
+    
+.container{
+    width: 100%;
+    height: 55vh;
+    padding: 0;
+}
+
+.container h1{
+    font-size: 30px;
+    color: #1877F2;
+
+}
+
+.container form{
+    width: 80%;
+    height: 75%;
+    
+}
+
+.container form h3{
+    font-weight: 300;
+}
+
+
+.container form input::placeholder{
+    font-size: 12px;
+    color: #9094B6;
+}
+
+.container form #button{
+    background-color: #1877F2;
+    padding: 10px 116px;
+    margin-top: 12px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.rec-links{
+    margin-top: 20px;
+    
+}
+
+.rec-links a{
+    color: #1877F2;
+    text-decoration: none;
+    margin-right: 5px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.footer{
+    background-color: #FFFFFF;
+    width: 100%;
+    position: relative;
+    /* margin-top: 25%; */
+    height: 180px;
+    display: flex;
+}
+
+.footer .texts{
+    position: absolute;
+    /* background-color: red; */
+    height: 30%;
+    margin-top: 30%;
+    margin-left: 5%;
+    line-height: 25px;
+    font-weight: 200;
+    font-size: 9px;
+
+}
+
+
+}
